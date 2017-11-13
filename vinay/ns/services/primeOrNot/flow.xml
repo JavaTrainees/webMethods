@@ -1781,9 +1781,6 @@
 <MAPCOPY FROM="/result;1;0" TO="/output;1;0">
 </MAPCOPY>
 
-<MAPDELETE FIELD="/num;1;0">
-</MAPDELETE>
-
 <MAPDELETE FIELD="/tempVariable;1;0">
 </MAPDELETE>
 
