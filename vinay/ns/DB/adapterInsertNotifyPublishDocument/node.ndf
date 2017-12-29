@@ -6,6 +6,7 @@
     <value name="node_subtype">unknown</value>
     <value name="node_nsName">DB:adapterInsertNotifyPublishDocument</value>
     <value name="node_pkg">vinay</value>
+    <value name="node_comment"></value>
     <record name="node_hints" javaclass="com.wm.util.Values">
       <value name="NotificationDocument"></value>
       <null name="CURRENT_NODE"/>
@@ -17,11 +18,16 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <number name="nanostamp" type="Long">10588575015874</number>
+    <number name="nanostamp" type="Long">90126467723135</number>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">ID</value>
         <value name="field_type">object</value>
@@ -34,10 +40,18 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_usereditable">true</value>
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">NAME</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
+        <array name="field_options" type="value" depth="1">
+        </array>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -45,11 +59,17 @@
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">_env</value>
         <value name="field_type">recref</value>
         <value name="field_dim">0</value>
         <value name="field_opt">true</value>
+        <value name="wrapper_type">IData</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
@@ -62,9 +82,10 @@
       <value name="timeToLive">0</value>
       <value name="storageType">guaranteed</value>
       <value name="clientValidation">true</value>
+      <value name="aliasName">IS_UM_CONNECTION</value>
       <Boolean name="enableProtoBuf">true</Boolean>
       <byte name="protoBufDescriptor">
-Cq4HCjthZGFwdGVySW5zZXJ0Tm90aWZ5UHVibGlzaERvY3VtZW50MzQzMDYyMjAxNzY5Mjk0NTM4My5wcm90byJWCiVEQl9hZGFwdGVySW5zZXJ0Tm90aWZ5UHVibGlzaERvY3VtZW50EgoKAklEGAEgASgMEgwKBE5BTUUYAiABKAkSEwoEX2VudhgDIAEoCzIFLl9lbnYilgYKBF9lbnYSEgoKYWN0aXZhdGlvbhgBIAEoCRITCgthcHBMYXN0U2VxbhgCIAEoBRITCgthcHBQYXNzd29yZBgDIAEoCRIPCgdhcHBTZXFuGAQgASgFEhMKC2FwcFVzZXJOYW1lGAUgASgJEhAKCHByaW9yaXR5GAYgASgFEhcKD2J1c2luZXNzQ29udGV4dBgHIAEoCRIUCgxjb250cm9sTGFiZWwYCCADKAUSEAoIZXJyb3JzVG8YCSABKAkSFwoPZXJyb3JSZXF1ZXN0c1RvGAogASgJEg4KBmxvY2FsZRgLIAEoCRISCgptYXhSZXN1bHRzGAwgASgFEg8KB3JlcGx5VG8YDSABKAkSEAoIcnVuTGV2ZWwYDiABKAUSEQoJc2lnbmF0dXJlGA8gASgMEhUKDXNpZ25hdHVyZVR5cGUYECABKAkSEwoLc3RhcnRSZXN1bHQYESABKAUSCwoDdGFnGBIgASgFEg8KB3RyYWNrSWQYEyABKAkSFQoNdHJhbnNhY3Rpb25JZBgUIAEoCRIWCg50cmFuc2Zvcm1TdGF0ZRgVIAEoCRILCgNhZ2UYFiABKAUSGwoTY29ubmVjdGlvbkludGVncml0eRgXIAEoCRIOCgZkZXN0SWQYGCABKAkSEwoLZW5xdWV1ZVRpbWUYGSABKAMSEQoJbG9nQnJva2VyGBogASgJEg8KB2xvZ0hvc3QYGyABKAkSHAoUcHViRGlzdGluZ3Vpc2hlZE5hbWUYHCABKAkSDQoFcHViSWQYHSABKAkSEgoKcHViTmV0QWRkchgeIAEoDBIPCgdwdWJTZXFuGB8gASgDEhAKCHB1YkxhYmVsGCAgAygFEhAKCHJlY3ZUaW1lGCEgASgDEh8KBXJvdXRlGCIgAygLMhAuX2Vudi5fZW52X3JvdXRlEgwKBHV1aWQYIyABKAkSDgoGc3RhdHVzGCQgASgJGkMKCl9lbnZfcm91dGUSDgoGYnJva2VyGAEgASgJEhAKCHJlY3ZUaW1lGAIgASgDEhMKC2VucXVldWVUaW1lGAMgASgD      </byte>
+Cq4HCjthZGFwdGVySW5zZXJ0Tm90aWZ5UHVibGlzaERvY3VtZW50MzcyMzg4OTM3MTgyOTQ5Mzk1MS5wcm90byJWCiVEQl9hZGFwdGVySW5zZXJ0Tm90aWZ5UHVibGlzaERvY3VtZW50EgoKAklEGAEgASgMEgwKBE5BTUUYAiABKAkSEwoEX2VudhgDIAEoCzIFLl9lbnYilgYKBF9lbnYSEgoKYWN0aXZhdGlvbhgBIAEoCRITCgthcHBMYXN0U2VxbhgCIAEoBRITCgthcHBQYXNzd29yZBgDIAEoCRIPCgdhcHBTZXFuGAQgASgFEhMKC2FwcFVzZXJOYW1lGAUgASgJEhAKCHByaW9yaXR5GAYgASgFEhcKD2J1c2luZXNzQ29udGV4dBgHIAEoCRIUCgxjb250cm9sTGFiZWwYCCADKAUSEAoIZXJyb3JzVG8YCSABKAkSFwoPZXJyb3JSZXF1ZXN0c1RvGAogASgJEg4KBmxvY2FsZRgLIAEoCRISCgptYXhSZXN1bHRzGAwgASgFEg8KB3JlcGx5VG8YDSABKAkSEAoIcnVuTGV2ZWwYDiABKAUSEQoJc2lnbmF0dXJlGA8gASgMEhUKDXNpZ25hdHVyZVR5cGUYECABKAkSEwoLc3RhcnRSZXN1bHQYESABKAUSCwoDdGFnGBIgASgFEg8KB3RyYWNrSWQYEyABKAkSFQoNdHJhbnNhY3Rpb25JZBgUIAEoCRIWCg50cmFuc2Zvcm1TdGF0ZRgVIAEoCRILCgNhZ2UYFiABKAUSGwoTY29ubmVjdGlvbkludGVncml0eRgXIAEoCRIOCgZkZXN0SWQYGCABKAkSEwoLZW5xdWV1ZVRpbWUYGSABKAMSEQoJbG9nQnJva2VyGBogASgJEg8KB2xvZ0hvc3QYGyABKAkSHAoUcHViRGlzdGluZ3Vpc2hlZE5hbWUYHCABKAkSDQoFcHViSWQYHSABKAkSEgoKcHViTmV0QWRkchgeIAEoDBIPCgdwdWJTZXFuGB8gASgDEhAKCHB1YkxhYmVsGCAgAygFEhAKCHJlY3ZUaW1lGCEgASgDEh8KBXJvdXRlGCIgAygLMhAuX2Vudi5fZW52X3JvdXRlEgwKBHV1aWQYIyABKAkSDgoGc3RhdHVzGCQgASgJGkMKCl9lbnZfcm91dGUSDgoGYnJva2VyGAEgASgJEhAKCHJlY3ZUaW1lGAIgASgDEhMKC2VucXVldWVUaW1lGAMgASgD      </byte>
     </record>
     <value name="modifiable">true</value>
   </record>
