@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">new_javaService</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vy
+c29yKCk7DQpTdHJpbmcgIGlucHV0MSA9IElEYXRhVXRpbC5nZXRTdHJpbmcoIHBpcGVsaW5lQ3Vy
+c29yLCAiaW5wdXQxIiApOw0KU3RyaW5nICBpbnB1dDIgPSBJRGF0YVV0aWwuZ2V0U3RyaW5nKCBw
+aXBlbGluZUN1cnNvciwgImlucHV0MiIgKTsNCnBpcGVsaW5lQ3Vyc29yLmRlc3Ryb3koKTsNCg0K
+U3RyaW5nIG91dHB1dDEgPSAiaGVsbG8sIHlvdSBnYXZlIG1lICIgKyBpbnB1dDEgKyIgYW5kICIg
+KyBpbnB1dDI7DQpJbnRlZ2VyIGFkZFZhbHVlID0gSW50ZWdlci52YWx1ZU9mKGlucHV0MSkgKyBJ
+bnRlZ2VyLnZhbHVlT2YoaW5wdXQyKSA7DQoNCi8vIHBpcGVsaW5lDQpJRGF0YUN1cnNvciBwaXBl
+bGluZUN1cnNvcl8xID0gcGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQpJRGF0YVV0aWwucHV0KCBwaXBl
+bGluZUN1cnNvcl8xLCAib3V0cHV0MSIsIG91dHB1dDEgKTsNCklEYXRhVXRpbC5wdXQoIHBpcGVs
+aW5lQ3Vyc29yXzEsICJhZGQgcmVzdWx0IiwgYWRkVmFsdWUgKTsNCnBpcGVsaW5lQ3Vyc29yXzEu
+ZGVzdHJveSgpOw0KCQ==</value>
+</Values>
